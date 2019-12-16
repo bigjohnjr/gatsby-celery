@@ -8,6 +8,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "prettier-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -16,9 +17,13 @@
   "dependencies": {
     "gatsby": "^2.18.8",
     "gatsby-cli": "^2.8.18",
+    "gatsby-plugin-typography": "^2.3.20",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "serialize-javascript": "^2.1.2"
+    "react-typography": "^0.16.19",
+    "serialize-javascript": "^2.1.2",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

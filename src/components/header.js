@@ -1,5 +1,7 @@
-import React from "react"
+import React from "react";
 
 export default props => (
-	<h1>{props.headerText} {props.arbitraryPhrase}</h1>
-)
+    <h1>
+        {props.headerText} {props.arbitraryPhrase}
+    </h1>
+);
