@@ -1,11 +1,24 @@
 import React from "react";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import Header from "../components/header";
+// import Header from "../components/header";
 
-export default () => (
+export default ({ data }) => (
     <Layout>
-        <Header headerText="About Gatsby" arbitraryPhrase="Santa" />
-        <Header headerText="Blue Blue Christmas" />
-        <p>The world needs more celery for LA people to juice.</p>
+        <h1>About {data.site.siteMetadata.title}</h1>
+        <p>
+            We're the only site running on your computer dedicated to showing
+            the best photos and videos of pandas eating lots of food.
+        </p>
     </Layout>
 );
+
+export const query = graphql`
+    query {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+    }
+`;
