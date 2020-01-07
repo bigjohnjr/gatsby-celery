@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c169af5-2010-4aba-9a45-48185473fd2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/my-files.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,7 @@
       <workItem from="1577117262354" duration="2294000" />
       <workItem from="1578260313984" duration="560000" />
       <workItem from="1578333509954" duration="58000" />
+      <workItem from="1578420495394" duration="864000" />
     </task>
     <servers />
   </component>
